@@ -26,6 +26,8 @@
 //! Words in the bag containing uppercase letters will be
 //! represented by their lowercase equivalent.
 
+
+
 use std::borrow::Cow;
 use std::collections::BTreeMap;
 
@@ -65,8 +67,8 @@ impl<'a> Bbow<'a> {
     /// assert_eq!(1, bbow.match_count("hello"));
     /// ```
     pub fn extend_from_text(mut self, target: &'a str) -> Self {
-        todo!();
-
+        
+     
         self
     }
 
